@@ -1,0 +1,12 @@
+version: 0.1
+phases:
+  install:
+    commands:
+      - npm install
+  build:
+    commands:
+      - tsc
+artifacts:
+    files:
+        - 'server/server.js'
+    base-directory: dist
