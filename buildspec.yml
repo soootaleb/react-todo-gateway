@@ -8,5 +8,4 @@ phases:
       - ./node_modules/.bin/tsc
 artifacts:
     files:
-        - 'server/server.js'
-    base-directory: dist
+        - '**/*'
