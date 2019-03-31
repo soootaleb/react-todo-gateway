@@ -5,7 +5,7 @@ phases:
       - npm install
   build:
     commands:
-      - tsc
+      - ./node_modules/.bin/tsc
 artifacts:
     files:
         - 'server/server.js'
